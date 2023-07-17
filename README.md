@@ -1,55 +1,28 @@
 # Cup IT 2023 - Final - DS
-## Разработка интеллектуального алгоритма для привлечения родственников текущих клиентов Альфа-банка
 
-![Текст с описанием картинки](https://alfabank.servicecdn.ru/site-upload/de/fd/187/1-Alfa_Karta-new-26042022.png)
+## Development of an intelligent algorithm for attracting relatives of current clients of Alfa-Bank
 
-## Постановка задачи
-Построить модель бинарной классификации данных, которая позволит найти новых клиентов среди родственников текущих пользователей услуг Альфа-Банка.
+![Alfa-Bank Card](https://alfabank.servicecdn.ru/site-upload/de/fd/187/1-Alfa_Karta-new-26042022.png)
 
-1. Самостоятельно собрать таргет, используя информацию о держателях и пользователях карты.
+## Problem Statement
+Build a binary classification model that will identify new clients among the relatives of current users of Alfa-Bank's services.
 
-2. Обучить модель, используя приведенный датасет. По результатам обучения выбрать лучшую модель из нескольких вариантов.
+1. Collect the target variable independently using information about cardholders and users.
 
-3. Предложить методы коммуникации с выбранным сегментом пользовательской базы для максимальной персонализации предложения. Процесс коммуникации может варьироваться с учетом особенностей пользователей.
+2. Train the model using the provided dataset. Select the best model from multiple options based on the training results.
 
-4. Составить дорожную карту развития проекта сроком на 1 год. Ответить на следующие вопросы:
-• Какие дальнейшие шаги по развитию проекта с точки зрения дата 
-сайенс вы можете предложить? 
-• Какие внешние данные помогли бы лучше решить эту задачу?
+3. Propose methods of communication with the selected segment of the user base to maximize personalization of the offer. The communication process can vary depending on the characteristics of the users.
 
-## Структура решения
+4. Create a one-year roadmap for the project's development. Answer the following questions:
+   - What further steps for project development can you propose from a data science perspective?
+   - What external data would help solve this problem more effectively?
+
+## Solution Structure
 
 - **Executive summary**
-> Для определения класса пользователей (кормилец / не кормилец) необходимо построить look-alike модель
-
-> Выявили проблемы и харатерные ошибки
-
-> Построение модели 
-- **EDA**
-> Изучение структуры имеющихся датасетов
-
-> Предобработка данных для машинного обучения
-- **Модель**
-> Фичи + CatBoost (K-fold 5)
-
-> Фичи + LightGBM (K-fold 5)
-
-> Фичи + Gradient Boosting (K-fold 5)
-
-> Фичи + Random Forest (K-fold 5)
-
-> Фичи + LogReg (K-fold 5)
-
-> Фичи + AdaBoost (K-fold 5)
-- **Анализ ошибок**
-> Дисбаланс классов
-
-> Низкая точность (score по метрикам)
-
-> Маленькая обобщающая способность 
-- **Финальная модель**
-> OS + Sequential (DL)
-
-> OS + Catboost + Optuna
-- **Инициативы**
-- **Дорожная карта**
+- **EDA (Exploratory Data Analysis)**
+- **Modeling**
+- **Error Analysis**
+- **Final Model**
+- **Initiatives**
+- **Roadmap**
